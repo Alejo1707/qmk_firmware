@@ -1,0 +1,120 @@
+{
+    "manufacturer": "makerjake01",
+    "keyboard_name": "CargoVan",
+    "maintainer": "Alejo1707",
+    "development_board": "elite_c",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "extrakey": true,
+        "nkro": true
+    },
+    "matrix_pins": {
+        "cols": ["D2", "D1", "D0", "D4", "C6", "D7", "F4", "B1", "F7", "F6", "F5"],
+        "rows": ["D3", "E6", "B4", "B5", "B3", "B2", "B6"]
+    },
+    "url": "https://trashman.wiki/keyboards/cargovan",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0001",
+        "vid": "0x4D4A"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                /* ROW 0 */
+                {"matrix": [0,0], "x": 0, "y": 0},              //KC_KP_9
+                {"matrix": [0,1], "x": 1, "y": 0},              //KC_KP_8
+                {"matrix": [0,2], "x": 2, "y": 0},              //KC_KP_7
+                {"matrix": [0,3], "x": 3, "y": 0},              //KC_NUM_LOCK
+
+                {"matrix": [0,4], "x": 5, "y": 0},              //KC_INS
+                {"matrix": [0,5], "x": 6, "y": 0},              //KC_HOME
+                {"matrix": [0,6], "x": 7, "y": 0},              //KC_PAGE_UP
+
+                {"matrix": [0,7], "x": 9, "y": 0},              //KC_F9
+                {"matrix": [0,8], "x": 10, "y": 0},             //KC_F10
+                {"matrix": [0,9], "x": 11, "y": 0},             //KC_F11
+                {"matrix": [0,10], "x": 12, "y": 0},            //KC_F12
+
+                /* ROW 1 */
+                {"matrix": [1,0], "x": 0, "y": 1},              //KC_KP_6
+                {"matrix": [1,1], "x": 1, "y": 1},              //KC_KP_5
+                {"matrix": [1,2], "x": 2, "y": 1},              //KC_KP_4
+                {"matrix": [1,3], "x": 3, "y": 1},              //KC_KP_DOT
+
+                {"matrix": [1,4], "x": 5, "y": 1},              //KC_DEL
+                {"matrix": [1,5], "x": 6, "y": 1},              //KC_END
+                {"matrix": [1,6], "x": 7, "y": 1},              //KC_PAGE_DOWN
+
+                {"matrix": [1,7], "x": 9, "y": 1},              //KC_F5
+                {"matrix": [1,8], "x": 10, "y": 1},             //KC_F6
+                {"matrix": [1,9], "x": 11, "y": 1},             //KC_F7
+                {"matrix": [1,10], "x": 12, "y": 1}             //KC_F8
+
+                /* ROW 2 */
+                {"matrix": [2,0], "x": 0, "y": 2},              //KC_KP_3
+                {"matrix": [2,1], "x": 1, "y": 2},              //KC_KP_2
+                {"matrix": [2,2], "x": 2, "y": 2},              //KC_KP_1
+                {"matrix": [2,3], "x": 3, "y": 2},              //KC_KP_0
+
+                {"matrix": [2,7], "x": 9, "y": 2},              //KC_F1
+                {"matrix": [2,8], "x": 10, "y": 2},             //KC_F2
+                {"matrix": [2,9], "x": 11, "y": 2},             //KC_F3
+                {"matrix": [2,10], "x": 12, "y": 2},            //KC_F4
+
+                /* ROW 3 */
+                {"matrix": [3,0], "x": 0, "y": 4},              //KC_ESC
+                {"matrix": [3,1], "x": 1, "y": 4},              //KC_Q
+                {"matrix": [3,2], "x": 2, "y": 4},              //KC_W
+                {"matrix": [3,3], "x": 3, "y": 4},              //KC_E
+                {"matrix": [3,4], "x": 5, "y": 4},              //KC_R
+                {"matrix": [3,5], "x": 6, "y": 4},              //KC_T
+                {"matrix": [3,6], "x": 7, "y": 4},              //KC_Y
+                {"matrix": [3,7], "x": 9, "y": 4},              //KC_U
+                {"matrix": [3,8], "x": 10, "y": 4},             //KC_I
+                {"matrix": [3,9], "x": 11, "y": 4},             //KC_O
+                {"matrix": [3,10], "x": 12, "y": 4},            //KC_P
+                {"matrix": [6,10], "x": 13, "y": 4, "w": 1.75},  //KC_BACKSLASH
+
+                /* ROW 4 */
+                {"matrix": [4,0], "x": 0, "y": 5, "w": 1.25},   //KC_TAB
+                {"matrix": [4,1], "x": 1, "y": 5},              //KC_A
+                {"matrix": [4,2], "x": 2, "y": 5},              //KC_S
+                {"matrix": [4,3], "x": 3, "y": 5},              //KC_D
+                {"matrix": [4,4], "x": 5, "y": 5},              //KC_F
+                {"matrix": [4,5], "x": 6, "y": 5},              //KC_G
+                {"matrix": [4,6], "x": 7, "y": 5},              //KC_H
+                {"matrix": [4,7], "x": 9, "y": 5},              //KC_J
+                {"matrix": [4,8], "x": 10, "y": 5},             //KC_K
+                {"matrix": [4,9], "x": 11, "y": 5},             //KC_L
+                {"matrix": [4,10], "x": 12, "y": 5},            //KC_QUOTE
+                {"matrix": [6,9], "x": 13, "y": 5, "w": 1.50},  //KC_ENTER
+
+                /* ROW 5 */
+                {"matrix": [5,0], "x": 0, "y": 6, "w": 1.75},   //KC_LSHIFT
+                {"matrix": [5,1], "x": 1, "y": 6},              //KC_Z
+                {"matrix": [5,2], "x": 2, "y": 6},              //KC_X
+                {"matrix": [5,3], "x": 3, "y": 6},              //KC_C
+                {"matrix": [5,4], "x": 5, "y": 6},              //KC_V
+                {"matrix": [5,5], "x": 6, "y": 6},              //KC_B
+                {"matrix": [5,6], "x": 7, "y": 6},              //KC_N
+                {"matrix": [5,7], "x": 9, "y": 6},              //KC_M
+                {"matrix": [5,8], "x": 10, "y": 6},             //KC_COMMA
+                {"matrix": [5,9], "x": 11, "y": 6},             //KC_DOT
+                {"matrix": [5,10], "x": 12, "y": 6},            //KC_SLASH
+                {"matrix": [6,8], "x": 13, "y": 6},             //KC_GRAVE
+
+                /* ROW 6 */
+                {"matrix": [6,0], "x": 0, "y": 7, "w": 1.25},   //KC_LCTRL
+                {"matrix": [6,1], "x": 1, "y": 7, "w": 1.50},   //KC_LGUI
+                {"matrix": [6,2], "x": 2, "y": 7, "w": 1.25},   //KC_LALT
+                {"matrix": [6,3], "x": 3, "y": 7, "w": 2.25},   //KC_SPACE
+                {"matrix": [6,4], "x": 5, "y": 7, "w": 2.00},   //KC_SPACE
+                {"matrix": [6,5], "x": 6, "y": 7, "w": 1.25},   //KC_RALT
+                {"matrix": [6,6], "x": 7, "y": 7, "w": 1.50},   //KC_RGUI
+                {"matrix": [6,7], "x": 9, "y": 7, "w": 1.75}    //KC_RCTRL
+            ]
+        }
+    }
+}
