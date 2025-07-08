@@ -5,7 +5,6 @@
     #define STM32F401_MCUCONF
 
     #define STM32_HSE_ENABLED TRUE
-    #define STM32_LSE_ENABLED TRUE
     #define STM32_PLLSRC STM32_PLLSRC_HSE
 
     #undef STM32_PLLM_VALUE
